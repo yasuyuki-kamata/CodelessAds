@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿#if UNITY_ADS
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
@@ -23,3 +24,4 @@ public class CodelessAdsEditor : MonoBehaviour
 		text.text = "Show Unity Ads";
 	}
 }
+#endif
